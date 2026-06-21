@@ -2,12 +2,13 @@
     "cursor.composer.shouldChimeAfterChatFinishes": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.defaultFormatter": "biomejs.biome",
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "FiraCode Nerd Font",
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
+    // "editor.fontSize": 15,
     "terminal.integrated.fontLigatures.enabled": true,
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
+    "terminal.integrated.scrollback": 100000,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "extensions.autoUpdate": false,
@@ -26,7 +27,6 @@
         "**/.svn/**"
     ],
     "git.suggestSmartCommit": false,
-    "github.copilot.nextEditSuggestions.enabled": true,
     "search.exclude": {
         "**/.git": true,
         "**/node_modules": true,
@@ -35,10 +35,7 @@
     "terminal.integrated.minimumContrastRatio": 1,
     "typescript.autoClosingTags": false,
     "typescript.tsdk": "node_modules\\typescript\\lib",
-    "update.enableWindowsBackgroundUpdates": false,
-    "update.mode": "none",
     "window.commandCenter": true,
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
         "editor.background": "#000000",
         "sideBar.background": "#000000",
@@ -50,32 +47,9 @@
         "statusBar.noFolderBackground": "#000000",
         "statusBar.debuggingBackground": "#000000"
     },
-    "postman.settings.dotenv-detection-notification-visibility": false,
-    "git.path": "Q:\\Apps\\Git\\bin\\git.exe",
-    "redhat.telemetry.enabled": false,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "biomejs.biome"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "biomejs.biome"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "cursor.cpp.enablePartialAccepts": true,
-    "cursor.composer.usageSummaryDisplay": "never",
-    "cursor.diffs.useCharacterLevelDiffs": true,
-    "cursor.cmdk.useThemedDiffBackground2": false,
     "workbench.colorTheme": "Default Dark Modern",
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "ridiculousCoding.sound": true,
-    "ridiculousCoding.reducedEffects": true,
-    "ridiculousCoding.shake": false,
-    "ridiculousCoding.explosions": false,
-    "ridiculousCoding.chars": true,
-    "ridiculousCoding.fireworks": false,
-    "ridiculousCoding.blips": true,
-    "sherlock.userId": "4e359cc9-2998-4cfb-a0ec-99419484c3d2",
+    "workbench.iconTheme": "material-icon-theme",
+    "extensions.autoCheckUpdates": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "manual",
 }
